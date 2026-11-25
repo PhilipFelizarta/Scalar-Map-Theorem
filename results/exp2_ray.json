@@ -1,0 +1,16 @@
+{
+  "depth": 4,
+  "alpha_newton": 0.9677209068533739,
+  "alpha_grid400": 0.97,
+  "val_ce_at_1": 0.08099044267098059,
+  "val_ce_newton": 0.07976144583590164,
+  "val_ce_grid400": 0.07976798295895374,
+  "test_ce_at_1": 0.08864918612072646,
+  "test_ce_newton": 0.08786716408668216,
+  "test_acc_at_1": 0.9722222222222222,
+  "test_acc_newton": 0.9722222222222222,
+  "accuracy_values_seen_along_ray": [
+    0.9722222222222222
+  ],
+  "ce_second_differences_in_t_min": 3.6817800225241726e-08
+}

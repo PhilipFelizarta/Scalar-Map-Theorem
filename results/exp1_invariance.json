@@ -1,0 +1,78 @@
+{
+  "n_scalings": 200,
+  "scaling_range": [
+    0.1,
+    10
+  ],
+  "n_test": 360,
+  "rows": [
+    {
+      "case": "leaky_relu(0.3), no bias (the notebook)",
+      "test_acc": 0.9722222222222222,
+      "top1_range": 0.0,
+      "top3_range": 0.0,
+      "max_rel_logit_error_vs_beta": 1.4718478055963678e-15
+    },
+    {
+      "case": "ReLU, no bias",
+      "test_acc": 0.9805555555555555,
+      "top1_range": 0.0,
+      "top3_range": 0.0,
+      "max_rel_logit_error_vs_beta": 1.2591539882948316e-15
+    },
+    {
+      "case": "ReLU, biases, telescoping rule",
+      "test_acc": 0.9833333333333333,
+      "top1_range": 0.0,
+      "top3_range": 0.0,
+      "max_rel_logit_error_vs_beta": 1.372935582310462e-15
+    },
+    {
+      "case": "ReLU, biases, naive rule (bias i by c_i)",
+      "test_acc": 0.9833333333333333,
+      "top1_range": 0.7333333333333334,
+      "top3_range": 0.525,
+      "max_rel_logit_error_vs_beta": null
+    },
+    {
+      "case": "ReLU, biases, uniform ray alpha*theta",
+      "test_acc": 0.9833333333333333,
+      "top1_range": 0.8999999999999999,
+      "top3_range": 0.6166666666666667,
+      "max_rel_logit_error_vs_beta": null
+    },
+    {
+      "case": "ReLU^2, biases, telescoping rule",
+      "test_acc": 0.9111111111111111,
+      "top1_range": 0.0,
+      "top3_range": 0.0,
+      "max_rel_logit_error_vs_beta": 2.4794486712614915e-15
+    },
+    {
+      "case": "GELU, no bias",
+      "test_acc": 0.9805555555555555,
+      "top1_range": 0.19444444444444442,
+      "top3_range": 0.011111111111111072,
+      "max_rel_logit_error_vs_beta": null
+    },
+    {
+      "case": "tanh, no bias",
+      "test_acc": 0.9861111111111112,
+      "top1_range": 0.033333333333333326,
+      "top3_range": 0.005555555555555536,
+      "max_rel_logit_error_vs_beta": null
+    },
+    {
+      "case": "softplus, no bias",
+      "test_acc": 0.9722222222222222,
+      "top1_range": 0.861111111111111,
+      "top3_range": 0.7055555555555555,
+      "max_rel_logit_error_vs_beta": null
+    }
+  ],
+  "per_neuron_rescaling_max_abs_logit_change": 1.4210854715202004e-14,
+  "free_positive_parameters_per_layer_vs_per_neuron": {
+    "per_layer": 4,
+    "per_neuron_plus_scale": 301
+  }
+}
