@@ -1,0 +1,50 @@
+{
+  "grid": [
+    72,
+    36
+  ],
+  "seeds": [
+    {
+      "seed": 0,
+      "final_snapshot_test_acc": 0.9583333333333334,
+      "sphere_best_on_val__test_acc": 0.9444444444444444,
+      "sphere_best_on_test__test_acc": 0.9583333333333334,
+      "optimism_of_selecting_on_test": 0.01388888888888895
+    },
+    {
+      "seed": 1,
+      "final_snapshot_test_acc": 0.9611111111111111,
+      "sphere_best_on_val__test_acc": 0.9638888888888889,
+      "sphere_best_on_test__test_acc": 0.9666666666666667,
+      "optimism_of_selecting_on_test": 0.002777777777777768
+    },
+    {
+      "seed": 2,
+      "final_snapshot_test_acc": 0.9666666666666667,
+      "sphere_best_on_val__test_acc": 0.9638888888888889,
+      "sphere_best_on_test__test_acc": 0.9722222222222222,
+      "optimism_of_selecting_on_test": 0.008333333333333304
+    },
+    {
+      "seed": 3,
+      "final_snapshot_test_acc": 0.9611111111111111,
+      "sphere_best_on_val__test_acc": 0.9638888888888889,
+      "sphere_best_on_test__test_acc": 0.975,
+      "optimism_of_selecting_on_test": 0.011111111111111072
+    },
+    {
+      "seed": 4,
+      "final_snapshot_test_acc": 0.9555555555555556,
+      "sphere_best_on_val__test_acc": 0.9638888888888889,
+      "sphere_best_on_test__test_acc": 0.9694444444444444,
+      "optimism_of_selecting_on_test": 0.005555555555555536
+    }
+  ],
+  "mean": {
+    "final_snapshot_test_acc": 0.9605555555555556,
+    "sphere_best_on_val__test_acc": 0.96,
+    "sphere_best_on_test__test_acc": 0.9683333333333334,
+    "optimism_of_selecting_on_test": 0.008333333333333326
+  },
+  "snapshots": "w0 = init, m1 = after epoch 1, m2 = after epoch 6"
+}
